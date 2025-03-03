@@ -1,0 +1,104 @@
+
+body { 
+    font-family: 'Poppins', sans-serif; 
+    background-color: #f0f4f8; 
+    color: #333; 
+}
+.hero-section { 
+    background: linear-gradient(135deg, #6b48ff, #00ddeb); 
+    padding: 80px 0; 
+    color: white; 
+    position: relative; 
+    overflow: hidden; 
+}
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif') no-repeat center;
+    background-size: cover;
+    opacity: 0.1;
+    z-index: 0;
+}
+        .hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+
+.nav-link {
+  color: #6b48ff !important;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #00ddeb !important;
+}
+
+.experience-card,
+.card,
+.language-card {
+  background-color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.experience-card:hover,
+.language-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+  background-color: #6b48ff;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #00ddeb;
+}
+
+.btn-outline-primary {
+  color: #6b48ff;
+  border-color: #6b48ff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #6b48ff;
+  color: white;
+}
+
+#proyectos,
+#testimonios,
+#contacto {
+  background-color: #fff;
+}
+
+#articulos,
+#lenguajes {
+  background-color: #f8f9fa;
+}
+
+.carousel-item {
+  padding: 20px;
+}
+
+form .form-control {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form .form-control:focus {
+  border-color: #6b48ff;
+  box-shadow: 0 0 5px rgba(107, 72, 255, 0.5);
+}
